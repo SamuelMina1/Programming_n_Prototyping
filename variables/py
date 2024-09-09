@@ -1,0 +1,4 @@
+#Hashtages are symbols to create comments 
+fname = "Samuel"
+age= 16 # number variable 
+fact = true # Boolean Variable
