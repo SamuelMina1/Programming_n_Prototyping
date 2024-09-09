@@ -2,3 +2,18 @@
 fname = "Samuel"
 age= 16 # number variable 
 fact = true # Boolean Variable
+
+print(7) # this prints a number
+print("I am the best") #prints string
+
+#prints data from a variable
+
+print(fname)
+
+print("hi")
+
+print("I am 16")
+
+question = input("What day is it?")
+
+print(fname, "Happy " + question+ "!")
