@@ -1,0 +1,8 @@
+question1 = input("Whats your first name")
+question2 = input("Whats your Last name")
+fname = (question1 +" "+ question2)
+
+print ("hello"+ fname +"!!!!!")
+
+fcolor = input("Whats your favorite color")
+print("Your favorite color is "+ fcolor)
