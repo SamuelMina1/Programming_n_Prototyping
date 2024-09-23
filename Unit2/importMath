@@ -10,3 +10,11 @@ h = int(input("What is the hieght of your cylinder?"))
 c = 2*r*math.pi 
 v = math.pi*r**2*h
 print("v = " +str(v))
+
+import math 
+Question1 = input("Whats your name?")
+r = float(input("coeffivients of the standard form equation"))
+h = int(input("What is the hieght of your cylinder?"))
+c = 2*r*math.pi 
+v = math.pi*r**2*h
+print("v = " +str(v))
