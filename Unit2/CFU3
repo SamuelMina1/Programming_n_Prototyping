@@ -11,8 +11,8 @@ multiplication = num1 * num2
 division = num1 / num2
 modulus = num1 % num2
 
-print((num1) "+" (num2) = (addition))
-print((num1) "-" (num2) = (subtraction))
-print((num1) "*" (num2) = (multiplication))
-print((num1) "/" (num2) = (division))
-print((num1) "%" (num2) = (modulus))
+print("Lets do some math with these numbers")
+print("the adiition of "+ str(num1) +" and "+ str(num2) + " is "+str(addition))
+print("the subtraction of "+ str(num1) +" and "+ str(num2) + " is "+str(subtraction))
+print("the division of "+ str(num1) +" and "+ str(num2) + " is "+str(division))
+print("the modulus of "+ str(num1) +" and "+ str(num2) + " is "+str(modulus))
