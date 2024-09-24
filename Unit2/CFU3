@@ -1,0 +1,18 @@
+fname = input("Enter your first name: ")
+lname = input("Enter your last name: ")
+print("Hello," + fname +" "+ lname +" "+ "Nice to meet you.")
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+modulus = num1 % num2
+
+print((num1) "+" (num2) = (addition))
+print((num1) "-" (num2) = (subtraction))
+print((num1) "*" (num2) = (multiplication))
+print((num1) "/" (num2) = (division))
+print((num1) "%" (num2) = (modulus))
