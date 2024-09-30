@@ -1,0 +1,31 @@
+# little canadian broke thei piggy bank
+# you are to create a program to help them
+# figure out how much money you have 
+# pennies = 1¢
+# nickles = 5¢
+# dimes = 10¢
+# quarter = 25¢
+# loonies = 1$ or 100¢
+# toonie = 2¢ 200¢
+# ask the kid how many coins they have of each
+# Calculate the total and give answer in decimals in a combination
+# in a combination
+# i.e: $13.67 or $13 and 2 quarters, 1 dime, 1 nickel, 2¢
+
+import math 
+
+qpennies = int(input("How many pennies do you have"))
+qnickels = int(input("How many nickels do you have"))
+qdimes = int(input("How many dimes do you have"))
+qquarter = int(input("How many quarter do you have"))
+qloonie = int(input("How many loonies do you have"))
+qtoonie = int(input("How many toonies do you have"))
+
+pennies = qpennies*0.01
+nickels = qnickels*0.05
+dimes = qdimes*0.10
+quarter = qquarter*0.25
+loonie = qloonie*1.00
+toonie = qtoonie*2.00
+
+print("A pennie is be " + str(pennies))
