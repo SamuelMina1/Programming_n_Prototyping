@@ -14,12 +14,12 @@
 
 import math 
 
-qpennies = int(input("How many pennies do you have"))
-qnickels = int(input("How many nickels do you have"))
-qdimes = int(input("How many dimes do you have"))
-qquarter = int(input("How many quarter do you have"))
-qloonie = int(input("How many loonies do you have"))
-qtoonie = int(input("How many toonies do you have"))
+qpennies = int(input("How many pennies do you have: "))
+qnickels = int(input("How many nickels do you have: "))
+qdimes = int(input("How many dimes do you have: "))
+qquarter = int(input("How many quarter do you have: "))
+qloonie = int(input("How many loonies do you have: "))
+qtoonie = int(input("How many toonies do you have: "))
 
 pennies = qpennies*0.01
 nickels = qnickels*0.05
@@ -28,4 +28,9 @@ quarter = qquarter*0.25
 loonie = qloonie*1.00
 toonie = qtoonie*2.00
 
-print("A pennie is be " + str(pennies))
+looniestopennies = 100*qloonie
+ttop = 200*qtoonie
+penniestotal = qpennies+dimes+nickels+quarter+loonie+ttop
+total = penniestotal /100
+
+print("You have $" + str(total))
