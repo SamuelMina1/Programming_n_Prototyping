@@ -33,4 +33,4 @@ ttop = 200*qtoonie
 penniestotal = qpennies+dimes+nickels+quarter+loonie+ttop
 total = penniestotal /100
 
-print("You have $" + str(total))
+print("The total value of coins: $" + str(total))
