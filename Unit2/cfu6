@@ -1,6 +1,25 @@
 import math
+random_num = random.randint(1, 100)
 
-import random
-x = random.randint(1, 100)
+user_num = float(input("Enter a number: "))
 
-print("Random number generated:" x)
+sum_result = random_num + user_num
+difference_result = random_num - user_num
+product_result = random_num * user_num
+quotient_result = random_num / user_num
+remainder_result = random_num % user_num
+square_root_random = math.sqrt(random_num)
+exponent_result = math.pow(user_num, random_num)
+
+
+print("Random Number: " (random_num))
+print("User's Number: " (user_num))
+print("Sum: " (sum_result))
+print("Difference: " (difference_result))
+print("Product: " (product_result))
+print("Quotient: " (quotient_result))
+print("Remainder: " (remainder_result))
+print("Square Root of Random Number:" (square_root_random))
+print("User's Number raised to the Power of Random Number: "(exponent_result))
+
+
