@@ -1,0 +1,6 @@
+num1 = int(input("#?"))
+if num1 >=5:
+    print("This number is greater than 5")
+    
+else:
+    print("This number is less than 5")
