@@ -1,1 +1,21 @@
+x = input("Did you order delivery?")
 
+if x=="yes":
+    print("Great!!!")
+    
+else:
+    print("NO?! So who is cooking?")
+
+
+version2
+
+x = input("Did you order delivery?")
+
+if x=="yes":
+    
+    question1 = input("what isthe cost of the food ordered?")
+    question2 = input("how many people are splitting the order?")
+    print("Great!!!")
+    
+else:
+    print("NO?! So who is cooking?")
