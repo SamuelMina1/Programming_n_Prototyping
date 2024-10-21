@@ -1,0 +1,33 @@
+#Samuel 10/17/24 period 1
+
+import random
+
+
+def guessing_game():
+    
+    rolls = int(input("How many rolls do you want to play? "))
+    
+ 
+    score = 0
+
+
+    for roll in range(1, rolls + 1):
+    
+        dice_roll = random.randint(1, 6)
+      
+        guess = int(input("Roll " + str(roll) + ": Guess the number (1-6): "))
+        
+        
+        if guess == dice_roll:
+            print("Correct! The dice rolled a " + str(dice_roll) + ".")
+            score += 6 
+        else:
+            print("Wrong! The dice rolled a " + str(dice_roll) + ".")
+            score -= 1 
+    
+    
+    print("Your final score after " + str(rolls) + " rolls is: " + str(score))
+
+# Start the game
+guessing_game()
+
