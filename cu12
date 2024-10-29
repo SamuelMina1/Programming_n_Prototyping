@@ -1,0 +1,13 @@
+#Samuel Mina
+#Period 2
+#today
+password ="simonsnyc"
+userInput =" "
+
+
+while userInput != password :
+    print("wrong password")
+    userInput = input("Enter password:")
+    
+print( " Correct !!! you may enter...")
+                   
