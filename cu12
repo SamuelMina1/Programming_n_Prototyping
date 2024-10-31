@@ -1,13 +1,37 @@
 #Samuel Mina
 #Period 2
 #today
-password ="simonsnyc"
-userInput =" "
-
-
-while userInput != password :
-    print("wrong password")
-    userInput = input("Enter password:")
+def version 2():
+    password = "simonnyc"
+    userInput = input("enter password: ")
+    i = 0
     
-print( " Correct !!! you may enter...")
-                   
+while password != userInput  and i < 2:
+    print("wrong password!")
+    userInput = input("Enter passcode: ")
+
+print("Correct! You may enter....")
+
+def v2():
+    password = "simonsnyc"
+    userInput = input("Enter passcode: ")
+    i = 0
+    while password != userInput and i < 2:
+        print("Wrong password!")
+        i+=1
+        userInput = input("Enter passcode: ")
+        if password == userInput:
+            print("Correct You may enter..."
+
+                  
+                  
+                  
+def main():
+    version = input("Choose 1 or 2")
+    if version =="1":
+        v1()
+    elif version == "2":
+        v2()
+    else:
+       print("That isnt a choice")
+main()
