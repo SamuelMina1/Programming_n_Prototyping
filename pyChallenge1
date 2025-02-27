@@ -1,0 +1,29 @@
+def wholesale_cost(copies):
+
+    cover_price = 24.95
+
+    discount = 0.40
+
+    shipping_first = 3
+
+    shipping_additional = 0.75
+
+
+
+    discounted_price = cover_price * (1 - discount)
+
+    total_book_cost = discounted_price * copies
+
+    shipping_cost = shipping_first + (shipping_additional * (copies - 1))
+
+    total_cost = total_book_cost + shipping_cost
+
+
+
+    return total_cost
+
+
+
+copies = 60
+
+print(f"Total wholesale cost for {copies} copies: ${wholesale_cost(copies):.2f}")
